@@ -1,8 +1,17 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+If you're looking for a powerful and flexible platform to host your static website, you might want to consider combining React, TypeScript, and Firebase. With these tools, you can create a dynamic and responsive website, while still enjoying the benefits of free static web hosting.
 
-## Available Scripts
+React is a popular JavaScript library that is widely used for building dynamic user interfaces. It is highly modular and allows you to easily create reusable components. TypeScript is a superset of JavaScript that adds type checking and other features to help you write more robust code. Firebase is a cloud-based platform that provides a range of services, including free static web hosting.
+
+Here are the steps to get started with React, TypeScript, and Firebase for free static web hosting:
+
+Install Node.js and create a new React project.
+First, you'll need to install Node.js on your machine if you haven't already. Then, you can create a new React project by running the following command:
+
+### npx create-react-app my-app --template typescript
+
+This will create a new React project with TypeScript support.
 
 In the project directory, you can run:
 
@@ -14,11 +23,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -29,30 +33,32 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+## Add Firebase to your project.
+
+Next, you'll need to create a Firebase account and add Firebase to your project. You can follow the official Firebase documentation for instructions on how to do this.
+
+Once you've added Firebase to your project, you'll need to configure your Firebase app to use free static web hosting. This can be done by following the instructions in the Firebase documentation.
 
 ## How to upload to Firebase static web hosting
 
 You may follow these steps for hosting your own static web, however, the website URL is not pretty.
 
 ### 1. go to Firebase console to create a new project
+
 ### 2. npm i -g firebase-tools
+
 ### 3. firebase login
+
 ### 4. Configure with firebase init, you may follow the [Medium.com](https://medium.com/swlh/how-to-deploy-a-react-app-with-firebase-hosting-98063c5bf425)
 
-[Example](https://spy-where-privacy-policy.web.app)
+### 5. firebase deploy
+
+And that's it! You now have a powerful and flexible platform for hosting your static website, all for free. With React, TypeScript, and Firebase, you can create a dynamic and responsive website that is easy to maintain and update.
+
+## [Example for privacy policy](https://spy-where-privacy-policy.web.app)
