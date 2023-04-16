@@ -44,3 +44,15 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## How to upload to Firebase static web hosting
+
+You may follow these steps for hosting your own static web, however, the website URL is not pretty.
+
+### 1. go to Firebase console to create a new project
+### 2. npm i -g firebase-tools
+### 3. firebase login
+### 4. Configure with firebase init, you may follow the [Medium.com](https://medium.com/swlh/how-to-deploy-a-react-app-with-firebase-hosting-98063c5bf425)
+
+[Example](https://spy-where-privacy-policy.web.app)
