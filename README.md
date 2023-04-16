@@ -55,9 +55,11 @@ You may follow these steps for hosting your own static web, however, the website
 
 ### 3. `firebase login`
 
-### 4. Configure with firebase init, you may follow the [Medium.com](https://medium.com/swlh/how-to-deploy-a-react-app-with-firebase-hosting-98063c5bf425)
+### 4. `firebase init`
 
-### 5. `firebase deploy`
+### 5. Configure with firebase init, you may follow the [Medium.com](https://medium.com/swlh/how-to-deploy-a-react-app-with-firebase-hosting-98063c5bf425)
+
+### 6. `firebase deploy`
 
 And that's it! You now have a powerful and flexible platform for hosting your static website, all for free. With React, TypeScript, and Firebase, you can create a dynamic and responsive website that is easy to maintain and update.
 
