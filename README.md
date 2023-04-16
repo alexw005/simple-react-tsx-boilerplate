@@ -9,7 +9,7 @@ Here are the steps to get started with React, TypeScript, and Firebase for free 
 Install Node.js and create a new React project.
 First, you'll need to install Node.js on your machine if you haven't already. Then, you can create a new React project by running the following command:
 
-### npx create-react-app my-app --template typescript
+### `npx create-react-app my-app --template typescript`
 
 This will create a new React project with TypeScript support.
 
@@ -51,13 +51,13 @@ You may follow these steps for hosting your own static web, however, the website
 
 ### 1. go to Firebase console to create a new project
 
-### 2. npm i -g firebase-tools
+### 2. `npm i -g firebase-tools`
 
-### 3. firebase login
+### 3. `firebase login`
 
 ### 4. Configure with firebase init, you may follow the [Medium.com](https://medium.com/swlh/how-to-deploy-a-react-app-with-firebase-hosting-98063c5bf425)
 
-### 5. firebase deploy
+### 5. `firebase deploy`
 
 And that's it! You now have a powerful and flexible platform for hosting your static website, all for free. With React, TypeScript, and Firebase, you can create a dynamic and responsive website that is easy to maintain and update.
 
